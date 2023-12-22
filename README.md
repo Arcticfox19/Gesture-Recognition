@@ -1,0 +1,2 @@
+# Main Achievements:
+Utilized MediaPipe to detect hand positions, followed by image preprocessing. Implemented a resnet-18 deep neural network to classify preprocessed images. Controlled video playback/pause, mute/unmute, fast forward, and rewind operations on the Bilibili website based on different classification results. Additionally, established a front-end webpage to display the video playback interface, hand gesture input screen, and software usage instructions.
