@@ -1,0 +1,43 @@
+
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" charset="UTF-8">
+    <meta name="keywords" content="html学习，meta元素">
+    <meta name="description" content="学习">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <title>Title</title>
+</head>
+<body style = "background-color:#FFA500;”><！">
+<div id="container" style="width:1300px">
+<div id="header" style="background-color:#FFA500;">
+    <h1 style="margin-bottom:0;"><img src="{{ url_for('static', filename='images/nice.jpg') }}"width="30" height="30">手势识别控制视频播放</h1> </div>
+<div id="menu" style="background-color:#FFD700;height:500px;width:240px;float:left;">
+<b>使用教程</b><br>
+    <ul>
+        <li><img src="{{ url_for('static', filename='images/one.jpg') }}"width="30" height="30">快退</li>
+    </ul>
+  <ul>
+        <li><img src="{{ url_for('static', filename='images/five.jpg') }}"width="30" height="30">播放/暂停</li>
+    </ul>
+      <ul>
+        <li><img src="{{ url_for('static', filename='images/fist.jpg') }}"width="30" height="30">静音/取消静音</li>
+    </ul>
+      <ul>
+        <li><img src="{{ url_for('static', filename='images/gun.jpg') }}"width="30" height="30">快进</li>
+    </ul>
+<p><a href="https://www.bilibili.com/video/BV1C5411a7k3"target="_blank">更多视频等你来看</a> </p>
+    <p>
+        <p>
+ <img src="{{ url_for('video_feed') }}" alt="Embedded Video" width="240" height="240">
+</div>
+<div id="content" style="background-color:#EEEEEE;height:500px;width:0px;float:left;">
+内容在这里</div>
+<iframe src="//player.bilibili.com/player.html?aid=257977789&bvid=BV1Pa411X76s&cid=761197704&page=1" scrolling="yes"  border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 1000px; height: 500px; max-width: 100%"> </iframe>
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+版权 20281159@bjtu.edu.cn
+    20281185@bjtu.edu.cn
+    20281192@bjtu.edu.cn
+</div>
+</div>
+</body>
+</html>

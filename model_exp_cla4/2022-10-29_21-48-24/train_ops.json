@@ -1,0 +1,30 @@
+{
+ "seed": 123,
+ "model_exp": "./model_exp_cla4/2022-10-29_21-48-24/",
+ "model": "resnet_18",
+ "train_path": "./file/dataaa/",
+ "num_classes": 4,
+ "have_label_file": false,
+ "GPUS": "1",
+ "val_factor": 0.0,
+ "test_interval": 1,
+ "pretrained": true,
+ "fintune_model": null,
+ "loss_define": "focalLoss",
+ "init_lr": 0.001,
+ "lr_decay": 0.96,
+ "weight_decay": 1e-06,
+ "batch_size": 48,
+ "dropout": 0.5,
+ "epochs": 200,
+ "num_workers": 6,
+ "img_size": [
+  256,
+  256
+ ],
+ "flag_agu": true,
+ "fix_res": false,
+ "clear_model_exp": false,
+ "log_flag": false,
+ "time": "2022-10-29 21:48:24"
+}
